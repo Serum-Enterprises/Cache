@@ -1,0 +1,31 @@
+{
+	"name": "@serum-enterprises/cache",
+	"version": "1.0.0",
+	"description": "Simple In-Memory Cache Library written in NodeJS",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "jest --coverage ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Serum-Enterprises/Cache.git"
+	},
+	"keywords": [
+		"node",
+		"nodejs",
+		"cache",
+		"memory",
+		"in-memory"
+	],
+	"author": "Philipp Steckenbauer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Serum-Enterprises/Cache/issues"
+	},
+	"homepage": "https://github.com/Serum-Enterprises/Cache#readme",
+	"devDependencies": {
+		"@types/jest": "^29.5.1",
+		"@types/node": "^20.2.5",
+		"jest": "^29.5.0"
+	}
+}
